@@ -1,0 +1,64 @@
+.container #navbarScroll .position-relative .searchBox {
+  /* max-width: 300px; */
+  background: transparent;
+  border: none;
+}
+.navbar input[type="text"]:focus,
+.navbar input[type="search"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+.box {
+  position: absolute;
+  max-width: 100%;
+  overflow-y: scroll;
+  top: 13vh;
+  height: 300px;
+}
+.box .searchBox {
+  display: flex;
+  max-width: 98%;
+  background-color: #ece8dc;
+  padding: 10px;
+  align-items: center;
+}
+.box::-webkit-scrollbar {
+  display: none;
+}
+.box .searchBox img {
+  width: 45px;
+  mix-blend-mode: luminosity;
+  margin-right: 5px;
+}
+.searchbar_parent .box .searchBox p {
+  font-family: "poppins";
+  font-size: 14px;
+  padding: 5px 0;
+}
+.exitButton {
+  background-color: #fee6e3;
+  padding: 5px 20px;
+  box-shadow: 5px 5px 1px black;
+  border: 2px solid black;
+  transition: box-shadow 0.255s ease;
+  z-index: 999;
+}
+.exitButton .text-decoration-none {
+  color: #504348;
+  background-color: #fee6e3;
+}
+.exitButton:hover {
+  box-shadow: none;
+}
+.dashbordButton {
+  background-color: #f0f0f0;
+  z-index: 999;
+  padding: 3px 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 5px 5px 1px black;
+  transition: box-shadow 0.255s ease;
+}
+.dashbordButton:hover {
+  box-shadow: none;
+}
